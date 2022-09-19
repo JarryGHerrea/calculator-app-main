@@ -5,6 +5,15 @@
   font-family: "League Spartan", sans-serif;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -51,13 +60,90 @@
   border-radius: 50px;
 }
 .content-checkbox h4 {
-  position: absolute;
-  right: 139px;
-  top: 64px;
+  position: relative;
+  right: 76px;
+  top: 76px;
 }
 
 #one {
   opacity: 1;
+}
+
+.input-content-calculator {
+  height: 85px;
+  width: 323px;
+  margin: auto;
+  margin-bottom: 26px;
+  border-radius: 20px;
+  background-color: hsl(224deg, 36%, 15%);
+}
+.input-content-calculator input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  text-indent: 281px;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 32px;
+}
+
+.content-calculator-btn {
+  height: 420px;
+  width: 325px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: hsl(223deg, 31%, 20%);
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  justify-content: center;
+}
+.content-calculator-btn .content-btb-rt {
+  grid-column: 1/3;
+  border-radius: 10px;
+  font-size: 32px;
+  border: none;
+  margin-top: 5px;
+  box-shadow: 0 -10px hsl(224deg, 28%, 35%) inset;
+  box-shadow: inset;
+}
+.content-calculator-btn .content-btb-rs {
+  grid-column: 3/5;
+  border-radius: 10px;
+  font-size: 32px;
+  border: none;
+  margin-left: 5px;
+  margin-top: 5px;
+  box-shadow: 0 -10px hsl(6deg, 70%, 34%) inset;
+}
+.content-calculator-btn .content-btn {
+  border-radius: 10px;
+  margin: 3px;
+  font-size: 32px;
+  border: none;
+  box-shadow: 0 -10px hsl(28deg, 16%, 65%) inset;
+}
+.content-calculator-btn .content-btn1 {
+  border-radius: 10px;
+  margin: 3px;
+  font-size: 32px;
+  border: none;
+  box-shadow: 0 -10px hsl(224deg, 28%, 35%) inset;
+}
+.content-calculator-btn .colo-btn1-bg {
+  background-color: hsl(30deg, 25%, 89%);
+}
+.content-calculator-btn .colo-btn2-bg {
+  background-color: hsl(225deg, 21%, 49%);
+}
+.content-calculator-btn .colo-btn3-bg {
+  background-color: hsl(6deg, 63%, 50%);
+}
+.content-calculator-btn .color-btn-txt1 {
+  color: hsl(221deg, 14%, 31%);
+}
+.content-calculator-btn .color-btn-txt2 {
+  color: hsl(0deg, 0%, 100%);
 }
 
 body {

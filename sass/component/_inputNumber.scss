@@ -1,0 +1,17 @@
+.input-content-calculator{
+    height: 85px;
+    width: 323px;
+    margin: auto;
+    margin-bottom: 26px;
+    border-radius: 20px;
+    background-color: $themes1-screen-background;
+    input {
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        text-indent: 281px;
+        color: $themes1-tex-White;
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,67 @@
+@mixin colorBorde($colorBorder) {
+  box-shadow:0 -10px $colorBorder inset;
+}
+@mixin botones {
+  border-radius: 10px;
+  margin: 3px;
+  font-size: 32px;
+  border: none;
+}
+.content-calculator-btn {
+  height: 420px;
+  width: 325px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: $themes1-toggle-background;
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  justify-content: center;
+ 
+  .content-btb-rt {
+    grid-column: 1 / 3;
+    border-radius: 10px;
+    font-size: 32px;
+    border: none;
+    margin-top: 5px;
+    @include colorBorde($themes1-key-shadow-blue);
+    box-shadow: inset;
+  
+
+  }
+  .content-btb-rs {
+    grid-column: 3/5;
+    border-radius: 10px;
+    font-size: 32px;
+    border: none;
+    margin-left: 5px;
+    margin-top: 5px;
+    @include colorBorde($themes1-key-shadow-Dark);
+
+  }
+  .content-btn {
+    @include botones;
+    @include colorBorde($themes1-Grayish-orange-key-shadow);
+
+  }
+  .content-btn1 {
+    @include botones;
+    @include colorBorde($themes1-key-shadow-blue);
+
+  }
+  .colo-btn1-bg {
+    background-color: $themes1-grayish-orange-key-background;
+  }
+  .colo-btn2-bg {
+    background-color: $themes1-key-background;
+  }
+  .colo-btn3-bg {
+    background-color: $themes1-key-background-toggle;
+  }
+  .color-btn-txt1 {
+    color: $themes1-tex-Very-dark-grayish-blue;
+  }
+  .color-btn-txt2 {
+    color: $themes1-tex-White;
+  }
+}
