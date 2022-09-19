@@ -1,5 +1,5 @@
 export default function themes (){
-    var buttons = document.getElementsByClassName("button");
+    var buttons = document.getElementsByClassName("button-input");
     var arr = [...buttons];
     
     arr.forEach((element, index) => {
